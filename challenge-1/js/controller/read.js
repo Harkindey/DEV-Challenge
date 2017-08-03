@@ -23,7 +23,8 @@ function contactHtmlFromObject(snapshot){
   html += '<td>'+contact[x].company+'</td>';
   html += '<td>'+contact[x].phone_number+'</td>';
   html += '<td>'+contact[x].jobDescription +'</td>';
-  html += '<td><a href="edit.html?q='+x+'"><button type="button" class="btn btn-default delete" id="edit">Edit</button></a> <a href="#?q='+x+'"><button type="button" class="btn btn-danger delete" id="delete'+x+'">Delete</button></td></a>';
+  html += '<td><a href="edit.html?q='+x+'"><button type="button" class="btn btn-default delete" id="edit">Edit</button></a> <a href="?q='+ x +'"><button type="button" class="btn btn-danger delete" id="delete'+x+'">Delete</button></td></a>';
   }
+
 return(html)
 }
