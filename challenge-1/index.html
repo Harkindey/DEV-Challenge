@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+  <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="js/config.js"></script>
+  <script type="text/javascript" src="js/controller/read.js"></script>
+
+
+
+  <div class="containerpad container">
+    <div class="row">
+      <div class="col-md-8">
+        <a href="#"><h1>Contacts<small class="count"></small></h1></a>
+      </div>
+
+      <div class="col-md-4">
+        <button type="button" class="btn btn-info">Sort By</button>
+        <button type="button" class="btn btn-info">Filter</button>
+        <a href="contactForm.html"><button type="button" class="btn btn-info" id="add">Add Contact </button></a>
+      </div>
+    </div>
+
+    <hr>
+
+    <table class="table table-striped sortable">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Name</th>
+          <th>Email </th>
+          <th>Company</th>
+          <th>Phone</th>
+          <th>Designation</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id='tabili'>
+        <tr class="success">
+          <th scope="row"><img class="img-circle" src="image/images.png" alt=""></th>
+          <td>Akinde Emmanuel</td>
+          <td>ibukunbamise@yahoo.com</td>
+          <td>Alfreds Futterkiste</td>
+          <td>081-0159-7773</td>
+          <td>Web Developer</td>
+          <td><a href="edit.html"><button type="button" class="btn btn-default" id="edit">Edit</button></a>
+            <button type="button" class="btn btn-danger delete" id="delete">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+  </div>
+  <!-- /.container -->
+
+  <script type="text/javascript" src="js/controller/delete.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+/** {
+    border: 1px solid red !important;
+}*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+  border-radius: 5px;
+  width: 100%;
+
+}
+
+.cheese {
+    width: 30%;
+    height: 299px;
+    margin: 10% auto;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 12px -2px rgba(14,14,14,1);
+    -moz-box-shadow: 0px 0px 12px -2px rgba(14,14,14,1);
+    box-shadow: 0px 0px 12px -2px rgba(14,14,14,1);
+}
+
+.another-one {
+    z-index: 99;
+    position: relative;
+    top: -437px !important;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.price {
+    width: 30%;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    height: 48px;
+    background-color: #F7E63B;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.75);
+}
+.price h2 {
+    position: relative;
+    margin: 0px;
+    top: 4px;
+    font-size: 36px;
+    color: #716B5A;
+    font-weight: 400;
+}
+
+.overlay {
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+}
+
+.overlay:hover {
+    background: rgba(0,0,0,0.75);
+}
+
+.overlay:hover > div.order-now {
+    visibility: visible;
+}
+
+.order-now {
+    z-index: 9999;
+    position: relative;
+    width: 32%;
+    height: 34px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-top: 134px;
+    text-align: center;
+    top: 144px;
+    background: rgba(255,255,255, 0.55);
+    border-radius: 4px;
+    visibility: hidden;
+}
+
+.order-now h6 {
+    position: relative;
+    margin: 0px;
+    top: 7px;
+    font-size: 16px;
+    margin-bottom: 134px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.name {
+    position: relative;
+    top: 180px;
+    width: 96%;
+    z-index: 9999;
+    left: 30px;
+    height: 38px;
+    background-color: #6BCC25;
+    -webkit-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 11px -2px rgba(0,0,0,0.75);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+.name h4 {
+    position: relative;
+    left: 13px;
+    width: 100%;
+    top: 9px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.triangle {
+  position: relative;
+  top: -230px;
+  float: right;
+  right: -120px;
+  z-index: -9;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+
+  border-bottom: 30px solid #3E7613;
+}
+
+
+.h2 .h4 .p {
+  margin: 0;
+}

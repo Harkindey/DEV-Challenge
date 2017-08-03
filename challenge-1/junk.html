@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact List</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyB8f3U26iDU_RhUorciAG_BdUe7bGSIaws",
+    authDomain: "contact-database-95733.firebaseapp.com",
+    databaseURL: "https://contact-database-95733.firebaseio.com",
+    projectId: "contact-database-95733",
+    storageBucket: "contact-database-95733.appspot.com",
+    messagingSenderId: "362085595103"
+  };
+  firebase.initializeApp(config);
+</script>
+<div class="grid">
+  <div class="row">
+    <div class="col-6">
+      <div class="row">
+        <h1 classs="title">Contacts</h1>
+        <h4>20 total</h4>
+        <button class="dropbtn">Sort by :</button>
+      </div>
+    </div>
+    <div class="col-6">
+      <button class="dropbtn">filter</button>
+      <button class="addcontact">AddContact</button>
+    </div>
+  </div>
+  <div class="row">
+    <table>
+    <tr>
+      <th>Basic Info</th>
+      <th>Company</th>
+      <th>Phone</th>
+      <th>Designation</th>
+      <th></th>
+    </tr>
+    <tr>
+      <td>Emmanuel Akinde <br> ibukunbamise@yahoo.com</td>
+      <td>Alfreds Futterkiste</td>
+      <td>081-0159-7773</td>
+      <td>Web Developer</td>
+      <td><button class="dropbtn">Edit</button><button class="dropbtn">Delete</button></td>
+    </tr>
+    <tr>
+      <td>Emmanuel Akinde <br> ibukunbamise@yahoo.com</td>
+      <td>Alfreds Futterkiste</td>
+      <td>081-0159-7773</td>
+      <td>Web Developer</td>
+      <td><button class="dropbtn">Edit</button><button class="dropbtn">Delete</button></td>
+    </tr>
+    <tr>
+      <td>Emmanuel Akinde <br> ibukunbamise@yahoo.com</td>
+      <td>Alfreds Futterkiste</td>
+      <td>081-0159-7773</td>
+      <td>Web Developer</td>
+      <td><button class="dropbtn">Edit</button><button class="dropbtn">Delete</button></td>
+    </tr>
+
+  </div>
+
+</div>
+
+
+
+
+  </body>
+</html>
